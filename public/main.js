@@ -30,7 +30,7 @@ async function merge() {
   copiedPagesA.forEach((page) => mergedPdf.addPage(page));
   const copiedPagesB = await mergedPdf.copyPages(pdf2, pdf2.getPageIndices());
   copiedPagesB.forEach((page) => mergedPdf.addPage(page));
-  const mergedPdfFile = await mergedPdf.saveAsBase64({ dataUri: false });
+  const mergedPdfFile = await mergedPdf.saveAsBase64({ dataUri: true });
 
   showPDF(mergedPdfFile);
 }
