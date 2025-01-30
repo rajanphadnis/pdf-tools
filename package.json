@@ -1,0 +1,26 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.0",
+    "vite-plugin-solid": "^2.11.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.1",
+    "@thisbeyond/solid-dnd": "^0.7.5",
+    "pdf-lib": "^1.17.1",
+    "pdfjs": "^2.5.3",
+    "solid-js": "^1.9.3",
+    "tailwindcss": "^4.0.1"
+  }
+}
